@@ -1,0 +1,28 @@
+# Running Performance Prediction (Master’s Thesis)
+
+This project analyzes running activity data and applies machine learning to predict running performance metrics.
+
+## Goal
+- Analyze running activity data
+- Build and optimize ML models for performance prediction
+- Interpret results using feature importance and residual analysis
+
+## Tech Stack
+Python, Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn
+
+## Workflow
+1. Data collection via Strava API
+2. Data cleaning and preprocessing
+3. Feature engineering
+4. Model training (Gradient Boosting)
+5. Hyperparameter tuning (GridSearchCV)
+6. Model evaluation (MAE, RMSE, R²)
+
+## Results
+- Best model: Gradient Boosting Regressor
+- Optimized using GridSearchCV
+- Key drivers include distance, elevation, cadence, and heart rate features
+
+## Notes on Data
+Raw data is not publicly shared due to privacy.  
+The notebooks contain the full methodology and can be reproduced using personal Strava data.
